@@ -5,7 +5,8 @@
     --bs-secondary-rgb: 252, 171, 16;
     --bs-tertiary: #f8333c;
     --bs-tertiary-rgb: 248, 51, 60;
-
+    --bs-body-font-family: "Inter", sans-serif;
+    --bs-heading-font-family: "Baloo Bhaijaan 2", sans-serif;
 }
 
 .banner {
@@ -31,6 +32,6 @@
     background-color: var(--bs-primary);
 }
 
-header {
+.navbar {
     background-color: var(--bs-primary);
 }
