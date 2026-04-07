@@ -17,3 +17,12 @@
     background: url(../images/adopt-banner.jpg) no-repeat center;
     background-size: cover;
 }
+
+.btn-secondary {
+    --bs-btn-bg: var(--bs-secondary);
+}
+
+.adopt-main {
+    background: url(../images/adopt-main.jpg) no-repeat center;
+    background-size: cover;
+}
