@@ -26,3 +26,11 @@
     background: url(../images/adopt-main.jpg) no-repeat center;
     background-size: cover;
 }
+
+.footer-area {
+    background-color: var(--bs-primary);
+}
+
+header {
+    background-color: var(--bs-primary);
+}
