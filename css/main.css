@@ -2,16 +2,18 @@
     --bs-primary: #59bacc;
     --bs-primary-rgb: 89, 186, 204;
     --bs-secondary: #fcab10;
+    --bs-gradient: #fcab10;
     --bs-secondary-rgb: 252, 171, 16;
     --bs-tertiary: #f8333c;
     --bs-tertiary-rgb: 248, 51, 60;
     --bs-body-font-family: "Inter", sans-serif;
-    --bs-heading-font-family: "Baloo Bhaijaan 2", sans-serif;
+    --bs-body-secondary-font-family: "Baloo Bhaijaan 2", sans-serif;
 }
 
 .banner {
     background: url(../images/home-banner.jpg) no-repeat center;
     background-size: cover;
+    background-color: var(--bs-gradient);
 }
 
 .adopt {
