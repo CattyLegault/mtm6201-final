@@ -10,4 +10,7 @@ https://www.figma.com/design/XfmtlUhTnDTx5pBoBI7TQe/Course-Resurces--W26_MTM6260
 
 <!-- Process -->
 
-- For this assignment, we were tasked of taking our UX high fidelity protoype and create a functioning website based on what we learned 
+| Syntax | Description |
+
+| For this assignment, we were tasked of taking our UX high fidelity protoype and create a functioning website based on what we learned from weeks 9-14. For my wireframe, I decided to
+do an animal shelter named "Pawsitive Futures" |
