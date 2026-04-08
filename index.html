@@ -16,8 +16,10 @@
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"/>
-      <!-- scroll librrary -->
+      <!-- scroll library -->
        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <!-- hover css -->
+        <link href="css/hover-min.css" rel="stylesheet">
     <!-- custom css -->
     <link rel="stylesheet" href="./css/main.css" />
     <title>Cat Legault - Pawsitive Futures Final</title>
@@ -26,8 +28,8 @@
     <!-- MAIN HEADER -->
     <header class="bg-primary overflow-x-hidden text-white">
       <nav class="navbar navbar-expand-lg p-0">
-        <div class="bg-primary mx-0 px-0 container-xl">
-          <a class="navbar-logo ms-0" href="#">
+        <div class="bg-primary px-0 container-xl">
+          <a class="navbar-logo ms-0" href="index.html">
             <img src="./images/logo.svg" alt="Pawsitive Futures logo" />
           </a>
           <button
@@ -44,31 +46,28 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mt-4 pb-4 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fs-6 text-white" href="index.html">HOME</a>
+                <a class="nav-link fs-6 font-monospace text-white" href="adopt.html">ADOPT A PET</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 text-white" href="adopt.html">ADOPT A PET</a>
+                <a class="nav-link fs-6 font-monospace text-white" href="#">EVENTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 text-white" href="#">EVENTS</a>
+                <a class="nav-link fs-6 font-monospace text-white" href="#">WORK WITH US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 text-white" href="#">WORK WITH US</a>
+                <a class="nav-link fs-6 font-monospace text-white" href="#">GIVE BACK</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 text-white" href="#">GIVE BACK</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-6 text-white" href="#">SUCCESS STORIES</a>
+                <a class="nav-link fs-6 font-monospace text-white" href="#">SUCCESS STORIES</a>
               </li>
             </ul>
-            <div class="d-flex flex-row-reverse me-4">
+            <div class="d-flex flex-row-reverse ms-4 me-4">
            <a href="#" class="px-4 btn border-0 btn-danger">Donate</a>
            </div>
            <div class="d-flex flex-row-reverse me-4">
            <a href="#" class="px-4 btn border-0 btn-secondary">Clinics</a>
            </div>
-            <form class="d-flex me-0 pe-0" role="search">
+            <form class="d-flex" role="search">
               <input
                 class="form-control rounded-0"
                 type="search"
@@ -86,9 +85,9 @@
     </header>
     <!-- Primary body -->
     <main>
-      <section id="hero" class="banner py-4 image-fluid">
-        <div class="container-xl mx-2 mt-2 z-index bg-gradient bg-opacity-50 bg-secondary">
-          <h2 class="h2 display-2 text-center pt-3 pb-3 mb-0 font-monospace fw-bold text-white">Have a Pawsitive outlook!</h2>
+      <section id="hero" class="banner pb-4 py-4 image-fluid">
+        <div class="container-xl mt-2 z-index bg-gradient bg-opacity-50 bg-secondary">
+          <h2 class="h2 display-2 text-center pt-3 mb-0 font-monospace fw-bold text-white">Have a Pawsitive outlook!</h2>
           <p class="text-center fs-2 fw-semibold text-white">Take part of the pawsitive society</p>
           <div class="d-flex pb-4 justify-content-center">
            <a href="#" class="pt-3 pb-2 px-4 btn btn-danger fs-4 font-monospace fw-bold text-white">Success Stories</a>
@@ -96,15 +95,15 @@
         </div>
       </section>
       <!-- About us section -->
-      <section id="about" class="">[]
+      <section id="about">
         <div class="container-xl py-3">
           <div class="row">
             <h2 class="pt-4 display-4 font-monospace fw-bold text-primary">About Pawsitive futures</h2>
             <div class="col-12 col-sm-6 pb-4 pt-4">
               <img class="img-fluid" src="./images/about-us.jpg" alt="" />
             </div>
-            <div class="col-12 col-sm-6">
-              <p>
+            <div class="col-12 col-sm-6 pb-4 pt-4">
+              <p class="fs-5 me-3">
                 Pawsitive Futures is a compassionate animal shelter dedicated to
                 rescuing, rehabilitating, and rehoming animals in need. The
                 organization focuses on giving abandoned, stray, and neglected
@@ -112,7 +111,7 @@
                 nutritious food, and a safe, loving environment while they wait
                 for adoption.
               </p>
-              <p>
+              <p class="fs-5">
                 Through community outreach, volunteer programs, and responsible
                 pet adoption initiatives, Pawsitive Futures works to connect
                 animals with caring families and promote awareness about animal
@@ -126,7 +125,7 @@
       </section>
       <!-- adopt a pet section -->
       <section class="adopt w-100 pt-5 pb-5">
-        <div class="img-fluid text-light pt-5">
+        <div class="img-fluid text-light pt-5 z-index bg-gradient bg-opacity-50 bg-secondary">
           <h2 class="display-3 fw-bold text-center font-monospace text-white">ADOPT A PET TODAY</h2>
           <a href="adopt.html" class="pt-2 pb-2 btn bg-danger text-white fs-5 d-grid gap-2 col-2 mx-auto">Adopt Now!</a>
           ></a>
@@ -144,7 +143,7 @@
                 class="card-img-top rounded-0 border-0"
                 alt="..."/>
               <div class="card-body">
-                <a href="#" class="pt-2 pb-2 btn btn-secondary border-0 d-grid gap-2 col-4 mx-auto">Sign Up</a>
+                <a href="#" class="hvr-hollow pt-2 pb-2 btn btn-secondary border-0 d-grid gap-2 col-4 mx-auto">Sign Up</a>
               </div>
             </div>
           </div>
@@ -156,7 +155,7 @@
                 class="card-img-top rounded-0"
                 alt="annual fundraiser events"/>
               <div class="card-body">
-                <a href="#" class="pt-2 pb-2 btn border-0 btn-secondary d-grid gap-2 col-4 mx-auto">Sign Up</a>
+                <a href="#" class="hvr-hollow pt-2 pb-2 btn border-0 btn-secondary d-grid gap-2 col-4 mx-auto">Sign Up</a>
               </div>
             </div>
           </div>
@@ -168,7 +167,7 @@
                 class="card-img-top rounded-0"
                 alt="cute kittens together"/>
               <div class="card-body">
-                <a href="#" class="pt-2 pb-2 btn border-0 btn-secondary d-grid gap-2 col-4 mx-auto">Sign Up</a>
+                <a href="#" class="hvr-hollow pt-2 pb-2 btn border-0 btn-secondary d-grid gap-2 col-4 mx-auto">Sign Up</a>
               </div>
             </div>
           </div>
@@ -184,7 +183,7 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-            <p>Location Info</p>
+            <p class="fw-bold">Location Info</p>
             <a href="https://maps.app.goo.gl/shDevfZneQStw1xX7" class="pt-2 pb-2 btn border-0 btn-secondary d-grid col-4">Click Here</a>
             </div>
             <div class="col-12 col-md-6">
