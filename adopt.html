@@ -1,6 +1,5 @@
 <!doctype html>
-<html lang="en">
-  <head>
+ <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- google fonts -->
@@ -16,15 +15,19 @@
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"/>
-      <!-- scroll librrary -->
-       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <!-- hover css -->
+        <link href="css/hover-min.css" rel="stylesheet">
     <!-- custom css -->
     <link rel="stylesheet" href="./css/main.css" />
     <title>Cat Legault - Pawsitive Futures Final</title>
   </head>
   <body>
     <!-- MAIN HEADER -->
-   <header class="bg-primary overflow-x-hidden text-white">
+    <header class="bg-primary overflow-x-hidden text-white w-100">
+      <div class="skip-links">
+      <a href="#navbar" class="skip">Skip to nav</a>
+      <a href="#main" class="skip">Skip to main content</a>
+      </div>
       <nav class="navbar navbar-expand-lg p-0">
         <div class="bg-primary px-0 container-xl">
           <a class="navbar-logo ms-0" href="index.html">
@@ -64,7 +67,7 @@
            <div class="d-flex flex-row-reverse me-4">
            <a href="#" class="px-4 btn border-0 btn-secondary">Clinics</a>
            </div>
-            <form class="d-flex" role="search">
+            <form class="d-flex ms-3 me-3 pb-3 pt-3" role="search">
               <input
                 class="form-control rounded-0"
                 type="search"
@@ -73,7 +76,7 @@
               <button class="btn btn-outline-primary rounded-0" type="submit">
                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                 </svg>
+                </svg>
               </button>
             </form>
           </div>
@@ -84,7 +87,7 @@
       <section id="adopt" class="adopt-main pt-5 pb-5 image-fluid">
         <div class="container-xl p-4 z-index bg-gradient bg-opacity-50 bg-secondary">
           <h2 class="h2 display-2 text-center font-monospace text-white fw-bold">Adopt now!</h2>
-          <p class="text-center text-white fw-semibold">Check out our lovely pets!</p>
+          <p class="text-center text-white fs-3 fw-semibold">Check out our lovely pets!</p>
         </div>
       </section>
       <section>
@@ -99,110 +102,105 @@
           </p>
         </div>
       </section>
+      <!-- list of pets: DESKTOP -->
       <section>
-      <div id="carouselExampleControls" class="carousel-slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="card-pets m-4 ps-3 pe-3 border border-5 rounded-5 border-secondary">
-              <h5 class="card-title font-monospace display-2 text-center fw-bold text-primary">Bella</h5>
-              <img src="images/bella.jpg" class="card-img" alt="cute bella">
-              <div class="card-body">
-                <p class="card-text m-3">Bella is an adorable, small dog looking for her forever home.</p>
-                <a href="application.html" class="btn p-3 border-3 rounded-4 btn-white align-middle m-3 hvr-hollow">Click here</a>
-              </div>
+        <div class="row d-none d-md-flex m-3 justify-content-center">
+          <div class="card col-md-3 border border-5 border-secondary rounded-4 m-3">
+            <h5 class="card-title pt-3 display-3 fw-bold font-monospace text-primary text-center">Bella</h5>
+            <img src="images/bella.jpg" class="card-img w-100" alt="cute bella">
+            <div class="card-body">
+              <p class="card-text">Bella is an adorable, small dog looking for her forever home.</p>
+              <a href="application.html" class="mx-auto text-decoration-none p-3 rounded-3 btn-white border-secondary hvr-hollow">Click here</a>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="card-pets m-4 ps-3 pe-3 border border-5 rounded-5 border-secondary">
-              <h5 class="card-title font-monospace display-2 text-center fw-bold text-primary">Charlie</h5>
-              <img src="images/charlie.jpg" class="card-img" alt="charlie looking happy">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn p-3 border-3 rounded-4 btn-white align-middle m-3 hvr-hollow">Go somewhere</a>
-              </div>
+          <div class="card col-md-3 border border-5 border-secondary rounded-4 m-3">
+            <h5 class="card-title pt-3 display-3 fw-bold font-monospace text-primary text-center">Charlie</h5>
+            <img src="images/charlie.jpg" class="card-img w-100" alt="happy charlie">
+            <div class="card-body">
+              <p class="card-text">Charlie is fun and energetic to have as a family pet. Looking for a loving home!</p>
+              <a href="#" class="mx-auto text-decoration-none p-3 rounded-3 btn-white border-secondary hvr-hollow">Click here</a>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="card-pets" style="width: 18rem;">
-              <h5 class="card-title">Card title</h5>
-              <img src="..." class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+          <div class="card col-md-3 border border-5 border-secondary rounded-4 m-3">
+            <h5 class="card-title pt-3 display-3 fw-bold font-monospace text-primary text-center">Cinnamon</h5>
+            <img src="images/cinnamon.jpg" class="card-img w-100" alt="cute cinnamon">
+            <div class="card-body">
+              <p class="card-text">This bundle of fluff is friendly and curious with her surroundings.</p>
+              <a href="#" class="mx-auto text-decoration-none p-3 rounded-3 btn-white border-secondary hvr-hollow">Click here</a>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="card-pets" style="width: 18rem;">
-              <h5 class="card-title">Card title</h5>
-              <img src="..." class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+          <div class="card col-md-3 border border-5 border-secondary rounded-4 m-3">
+            <h5 class="card-title pt-3 display-3 fw-bold font-monospace text-primary text-center">Lucy</h5>
+            <img src="images/lucy.jpg" class="card-img w-100" alt="cute lucy">
+            <div class="card-body">
+              <p class="card-text">Calm but happy as well as friendly and affectionate towards new people.</p>
+              <a href="#" class="mx-auto text-decoration-none p-3 rounded-3 btn-white border-secondary hvr-hollow">Click here</a>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="card-pets" style="width: 18rem;">
-              <h5 class="card-title">Card title</h5>
-              <img src="..." class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+          <div class="card col-md-3 border border-5 border-secondary rounded-4 m-3">
+            <h5 class="card-title pt-3 display-3 fw-bold font-monospace text-primary text-center">Oliver</h5>
+            <img src="images/oliver.jpg" class="card-img w-100" alt="cute oliver">
+            <div class="card-body">
+              <p class="card-text">Oliver likes to get into mischief and be with you at all times.</p>
+              <a href="#" class="mx-auto text-decoration-none p-3 rounded-3 btn-white border-secondary hvr-hollow">Click here</a>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="card-pets" style="width: 18rem;">
-              <h5 class="card-title">Card title</h5>
-              <img src="..." class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+          <div class="card col-md-3 border border-5 border-secondary rounded-4 m-3">
+            <h5 class="card-title pt-3 display-3 fw-bold font-monospace text-primary text-center">Leo</h5>
+            <img src="images/leo.jpg" class="card-img w-100" alt="cute leo">
+            <div class="card-body">
+              <p class="card-text">This charming tuxedo cat is ready to steal your heart with its playful personality.</p>
+              <a href="#" class="mx-auto text-decoration-none p-3 rounded-3 btn-white border-secondary hvr-hollow">Click here</a>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="card-pets" style="width: 18rem;">
-              <h5 class="card-title">Card title</h5>
-              <img src="..." class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+          <div class="card col-md-3 border border-5 border-secondary rounded-4 m-3">
+            <h5 class="card-title pt-3 display-3 fw-bold font-monospace text-primary text-center">Phantom</h5>
+            <img src="images/phantom.jpg" class="card-img w-100" alt="mischievous phantom">
+            <div class="card-body">
+              <p class="card-text">Phantom is looking for a loving home to share its quiet charm and endless cuddles!</p>
+              <a href="#" class="mx-auto text-decoration-none p-3 rounded-3 btn-white border-secondary hvr-hollow">Click here</a>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="card-pets" style="width: 18rem;">
-              <h5 class="card-title">Card title</h5>
-              <img src="..." class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+           <div class="card col-md-3 border border-5 border-secondary rounded-4 m-3">
+            <h5 class="card-title pt-3 display-3 fw-bold font-monospace text-primary text-center">Milo</h5>
+            <img src="images/milo.jpg" class="card-img w-100" alt="playful milo">
+            <div class="card-body">
+              <p class="card-text">Milo  is eager for adventure and ready to bring joy, loyalty, and fun to your home!</p>
+              <a href="#" class="mx-auto text-decoration-none p-3 rounded-3 btn-white border-secondary hvr-hollow">Click here</a>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="card-pets" style="width: 18rem;">
-              <h5 class="card-title">Card title</h5>
-              <img src="..." class="card-img" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+          <div class="card col-md-3 border border-5 border-secondary rounded-4 m-3">
+            <h5 class="card-title pt-3 display-3 fw-bold font-monospace text-primary text-center">Biscuit</h5>
+            <img src="images/biscuit.jpg" class="card-img w-100" alt="fluffy biscuit">
+            <div class="card-body">
+              <p class="card-text">Biscuit, the sweet brown bunny, is ready to hop into your heart with her gentle nature.</p>
+              <a href="#" class="mx-auto text-decoration-none p-3 rounded-3 btn-white border-secondary hvr-hollow">Click here</a>
             </div>
           </div>
         </div>
-       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-    </div>
-    </section>
+      </section>
+      <!-- list of pets: MOBILE-CAROUSEL -->
+        <div id="petCarousel" class="carousel slide d-md-none">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <section>
       <hr class="border border-danger border-3 mt-5">
       <section class="pt-5">
