@@ -88,6 +88,20 @@
     <main>
       <section id="hero" class="banner pb-4 py-4 image-fluid">
         <div class="container-xl mt-2 z-index bg-gradient bg-opacity-50 bg-secondary">
+          <picture class="w-100">
+            <source srcset="images/home-banner-1435_x_585.jpg"
+            media="(min-width: 1200px)" />
+
+            <source srcset="img/art/square/lego_square_640.png"
+            media="(min-width: 480px)" />
+
+            <source srcset="img/art/square/lego_square_480.png"
+            media="(min-width: 320px)" />
+
+            <img class="orig-img"
+         src="images/home-banner.jpg"
+         alt="Picture of the main home banners">
+            </picture>
           <h2 class="h2 display-2 text-center pt-3 mb-0 font-monospace fw-bold text-white">Have a Pawsitive outlook!</h2>
           <p class="text-center fs-2 fw-semibold text-white">Take part of the pawsitive society</p>
           <div class="d-flex pb-4 justify-content-center">
@@ -288,7 +302,7 @@
         </div>
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
-          <form class="d-flex mt-4" role="search">
+          <form class="d-flex mt-4 ms-3 me-3" role="search">
               <input
                 class="form-control rounded-0"
                 type="search"
@@ -315,7 +329,7 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-    <!-- fade script -->
+    <!-- fade css -->
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
