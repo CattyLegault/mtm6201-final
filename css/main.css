@@ -11,6 +11,12 @@
   --bs-font-monospace: "Baloo Bhaijaan 2", sans-serif;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .skip-links {
   position: absolute;
   left: -10000px;
@@ -84,22 +90,26 @@
   color: white;
 }
 
+.img-wrapper {
+  width: 100%;
+}
+
 @media screen and (min-width: 576px) {
   .carousel-inner {
     display: flex;
   }
 
   .carousel-item {
-    display: block;
+    display: flex;
     margin-right: 0;
-    flex: 0 0 calc(100 / 3);
+    flex: 0 0 calc(100% / 3);
   }
+}
 
-  .carousel-inner {
-    padding: 1em;
-  }
+.carousel-inner {
+  padding: 1em;
+}
 
-  .card-pets {
-    margin: 0 0.5em;
-  }
+.card {
+  margin: 0.5em;
 }
