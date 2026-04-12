@@ -2,11 +2,10 @@
   --bs-primary: #59bacc;
   --bs-primary-rgb: 89, 186, 204;
   --bs-secondary: #fcab10;
-  --bs-gradient: #fcab10;
   --bs-subtle: #ddd8ba;
   --bs-secondary-rgb: 252, 171, 16;
-  --bs-tertiary: #f8333c;
-  --bs-tertiary-rgb: 248, 51, 60;
+  --bs-danger: #f8333c;
+  --bs-danger-rgb: 248, 51, 60;
   --bs-body-font-family: "Inter", sans-serif;
   --bs-font-monospace: "Baloo Bhaijaan 2", sans-serif;
 }
@@ -161,29 +160,4 @@ body {
 .hvr-fade:active {
   background-color: #156978;
   color: white;
-}
-
-.img-wrapper {
-  width: 100%;
-  display: flex;
-}
-
-@media screen and (min-width: 576px) {
-  .carousel-inner {
-    display: flex;
-  }
-
-  .carousel-item {
-    display: flex;
-    margin-right: 0;
-    flex: 0 0 calc(100% / 3);
-  }
-}
-
-.carousel-inner {
-  padding: 1em;
-}
-
-.card {
-  margin: 0.5em;
 }
