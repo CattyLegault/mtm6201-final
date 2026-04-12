@@ -26,8 +26,8 @@
     <!-- MAIN HEADER -->
     <header class="bg-primary overflow-x-hidden text-white w-100">
       <div class="skip-links">
-      <a href="#navbar" class="skip">Skip to nav</a>
-      <a href="#main" class="skip">Skip to main content</a>
+        <a href="#navbar" class="skip">Skip to nav</a>
+        <a href="#main" class="skip">Skip to main content</a>
       </div>
       <nav class="navbar navbar-expand-lg p-0">
         <div class="bg-primary px-0 container-xl">
@@ -47,26 +47,26 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mt-4 me-0 ps-3 pb-4 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fs-6 font-monospace text-white" href="adopt.html">ADOPT A PET</a>
+                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="adopt.html">ADOPT A PET</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 font-monospace text-white" href="#">EVENTS</a>
+                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">EVENTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 font-monospace text-white" href="#">WORK WITH US</a>
+                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">WORK WITH US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 font-monospace text-white" href="#">GIVE BACK</a>
+                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">GIVE BACK</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 font-monospace text-white" href="#">SUCCESS STORIES</a>
+                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">SUCCESS STORIES</a>
               </li>
             </ul>
             <div class="d-flex flex-row-reverse ms-4 ps-5 me-4">
-           <a href="#" class="px-4 btn border-0 btn-danger">Donate</a>
+           <a href="#" class="hvr-fade px-4 btn border-0 btn-danger">Donate</a>
            </div>
            <div class="d-flex flex-row-reverse me-4">
-           <a href="#" class="px-4 btn border-0 btn-secondary">Clinics</a>
+           <a href="#" class="hvr-fade px-4 btn border-0 btn-secondary">Clinics</a>
            </div>
             <form class="d-flex ms-3 me-3 pb-3 pt-3" role="search">
               <input
@@ -86,12 +86,12 @@
     </header>
     <!-- Primary body -->
     <main>
-      <section id="hero" class="home-banner pb-4 py-4 image-fluid">
-        <div class="container-xl mt-2 w-100 bg-gradient bg-opacity-50 bg-secondary">
-          <h2 class="h2 z-index display-2 text-center pt-3 mb-0 font-monospace fw-bold text-white">Have a Pawsitive outlook!</h2>
-          <p class="z-index text-center fs-2 fw-semibold text-white">Take part of the pawsitive society</p>
-          <div class=" z-index d-flex pb-4 justify-content-center">
-           <a href="#" class="pt-3 pb-2 px-4 btn btn-danger fs-4 font-monospace fw-bold text-white">Success Stories</a>
+      <section id="hero" class="home-banner">
+        <div class="img-fluid w-100 text-light p-4 py-5 bg-gradient bg-opacity-50 bg-secondary">
+          <h2 class="h2 display-2 text-center pt-3 mb-0 font-monospace fw-bold text-white">Have a Pawsitive outlook!</h2>
+          <p class="text-center fs-2 fw-semibold text-white">Take part of the pawsitive society</p>
+          <div class="d-flex pb-4 justify-content-center">
+           <a href="#" class="hvr-grow pt-3 pb-2 px-4 btn btn-danger fs-4 font-monospace fw-bold text-white">Success Stories</a>
            </div>
         </div>
       </section>
@@ -100,8 +100,21 @@
         <div class="container-xl py-3">
           <div class="row">
             <h2 class="pt-4 display-4 font-monospace fw-bold text-primary">About Pawsitive futures</h2>
-            <div class="col-12 col-sm-6 pb-4 pt-4">
-              <img class="img-fluid ms-3" src="./images/about-us.jpg" alt="volunteer holding a dog" />
+            <div class="col-12 pb-4 pt-4">
+              <picture class="img-fluid col-sm-2">
+                 <source srcset="images/about-us-720_x_720.png"
+                  media="(min-width: 640px)" />
+
+                  <source srcset="images/about-us-640_x_640.png 2x"
+                          media="(min-width: 480px)" />
+
+                  <source srcset="images/about-us-480_x_480.png 3x"
+                          media="(min-width: 320px)" />
+
+                  <img class="orig-img"
+                      src="images/about-us.png"
+                      alt="volunteer holding a dog">
+              </picture>
             </div>
             <div class="col-12 col-sm-6 pb-4 pt-4">
               <p class="fs-5 me-3">
@@ -125,11 +138,11 @@
         </div>
       </section>
       <!-- adopt a pet section -->
-      <section class="adopt w-100 pt-5 pb-5">
-        <div class="img-fluid text-light pt-5 z-index bg-gradient bg-opacity-50 bg-secondary">
+      <section class="adopt">
+        <div class="img-fluid w-100 text-light py-5 bg-gradient bg-opacity-50 bg-secondary">
           <h2 class="display-3 fw-bold text-center font-monospace text-white">ADOPT A PET TODAY</h2>
-          <a href="adopt.html" class="font-monospace fw-semibold pt-2 pb-2 btn bg-danger text-white fs-5 d-grid gap-2 col-2 mx-auto">Adopt Now!</a>
-          ></a>
+          <a href="adopt.html" class="hvr-grow font-monospace fw-semibold pt-2 pb-2 btn bg-danger text-white fs-5 d-grid gap-2 col-2 mx-auto">Adopt Now!</a>
+          </a>
         </div>
       </section>
       <!-- events and fundraisers -->
@@ -144,7 +157,7 @@
                 class="card-img-top rounded-0 border-0"
                 alt="..."/>
               <div class="card-body">
-                <a href="#" class="hvr-hollow pt-2 pb-2 btn btn-secondary border-0 d-grid gap-2 col-4 mx-auto">Sign Up</a>
+                <a href="https://www.youtube.com/watch?v=ph8WqK0bLug" class="hvr-pop pt-2 pb-2 btn btn-secondary border-0 d-grid gap-2 col-4 mx-auto">Sign Up</a>
               </div>
             </div>
           </div>
@@ -156,7 +169,7 @@
                 class="card-img-top rounded-0"
                 alt="annual fundraiser events"/>
               <div class="card-body">
-                <a href="#" class="hvr-hollow pt-2 pb-2 btn border-0 btn-secondary d-grid gap-2 col-4 mx-auto">Sign Up</a>
+                <a href="https://rallyup.com/blog/animal-shelter-fundraisers/" class="hvr-pop pt-2 pb-2 btn border-0 btn-secondary d-grid gap-2 col-4 mx-auto">Sign Up</a>
               </div>
             </div>
           </div>
@@ -168,7 +181,7 @@
                 class="card-img-top rounded-0"
                 alt="cute kittens together"/>
               <div class="card-body">
-                <a href="#" class="hvr-hollow pt-2 pb-2 btn border-0 btn-secondary d-grid gap-2 col-4 mx-auto">Sign Up</a>
+                <a href="#" class="hvr-pop pt-2 pb-2 btn border-0 btn-secondary d-grid gap-2 col-4 mx-auto">Sign Up</a>
               </div>
             </div>
           </div>
@@ -185,7 +198,7 @@
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
             <p class="fw-bold">Location Info</p>
-            <a href="https://maps.app.goo.gl/shDevfZneQStw1xX7" class="pt-2 mb-4 pb-2 btn border-0 btn-secondary d-grid col-4">Click Here</a>
+            <a href="https://maps.app.goo.gl/shDevfZneQStw1xX7" class="hvr-pop mb-4 pb-2 btn border-0 btn-secondary d-grid col-4">Click Here</a>
             </div>
             <div class="col-12 col-md-6 ">
           <table class="table ms-3">
@@ -309,8 +322,8 @@
             </form>
              </ul>
             <div class="d-flex justify-content-center mt-4 gap-2">
-           <a href="#" class="px-4 btn border-0 btn-danger">Donate</a>
-           <a href="#" class="px-4 btn border-0 btn-secondary">Clinics</a>
+           <a href="#" class="hvr-fade px-4 btn border-0 btn-danger">Donate</a>
+           <a href="#" class="hvr-fade px-4 btn border-0 btn-secondary">Clinics</a>
         </div>
       </div>
     </div>

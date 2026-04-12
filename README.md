@@ -7,6 +7,14 @@ Over the course of this website building, I did have to make a few changes after
 
 I think this whole project was harder than it looked when I first designed it. I think I should've kept certain desicions to the original beforehand to reduce the stress. Some elements when building the site were either not working, or causing problems.
 
+**Please Note**
+The website have five functional pages; home page, adopt page (bella), bella-main, application and acknowledgment. About
+
+## website task
+
+_Task_
+Adopt Bella
+
 ### All assets used in the making of this website
 
 https://getbootstrap.com/
@@ -21,6 +29,8 @@ https://www.pexels.com/
 
 https://pixabay.com/
 
+https://iconmonstr.com/
+
 ## Figma
 
 https://www.figma.com/design/XfmtlUhTnDTx5pBoBI7TQe/Course-Resurces--W26_MTM6260-?node-id=1-11&t=oaDWYH6ROTFrkB26-1
@@ -30,6 +40,7 @@ https://www.figma.com/design/XfmtlUhTnDTx5pBoBI7TQe/Course-Resurces--W26_MTM6260
 - ALL PHOTOS WERE DOWNLOADED FROM PEXELS AND PIXABAY, STOCK PHOTO WEBSITES
 - Logo was given to us from the creative briefs in UX foundations
 - Icons at the bottom of the adopt.html are from google and tweaked in illustrator to fit the theme, rendered as a vector SVG
+  -Social media icons are from https://iconmonstr.com/
 
 ## Comments for upddated changes on the website from the original Figma wireframe
 
@@ -41,8 +52,3 @@ https://www.figma.com/design/XfmtlUhTnDTx5pBoBI7TQe/Course-Resurces--W26_MTM6260
   (https://www.fvrd.ca/assets/Services/Documents/Animal~Control/Dog%20Adoption%20Application.pdf)
   (https://www.brampton.ca/en/residents/animal-services/documents/adoption-forms/dog%20adoption%20application.pdf)
   (https://www.jotform.com/pdf-templates/pet-adoption-application-template)
-
-## website task
-
-_Task_
-Adopt Bella
