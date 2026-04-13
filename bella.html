@@ -89,28 +89,86 @@
     <!-- photo and information of Bella -->
     <main>
       <section id="info" class="bella">
-        <div class="container-xl py-3">
-          <div class="row">
+        <div class="container-xl py-2 p-0">
+            <div class="row g-0">
             <h2 class="pt-4 display-2 ms-4 font-monospace fw-bold text-primary">Bella</h2>
-            <p class="pb-0 fw-bold fs-5 ms-4">Breed:</p>
+            <p class="fw-bold fs-5 ms-4">Breed:</p>
             <p class="ms-4 fs-5">Shih Tzu</p>
-            <div class="col-12 col-sm-6 pb-4 pt-4">
-              <img class="img-fluid" src="./images/bella-1.jpg" alt="cute photo of bella" />
+            <div class="col-12 col-sm-5 pb-4 pt-4">
+              <picture class="pb-4 img-fluid">
+                  <source srcset="images/bella-640x640.jpg 3x"
+                            media="(min-width: 480px)" />
+
+                  <source srcset="images/bella-480x480.jpg 2x"
+                            media="(min-width: 320px)" />
+                    
+                  <source srcset="images/bella-320x320.jpg 1x"
+                            media="(min-width: 319px)" />
+
+                  <img class="orig-img img-fluid"
+                        src="images/bella.jpg"
+                        alt="profile of bella">
+                </picture>
             </div>
-            <section class="mini-gallery">
-              <div class="container-sm">
-                <div class="row">
-                  <div class="col">
-                    <img src="..." class="img-thumbnail" alt="...">
+          <div id="mini-gallery" class="container-lg mini-gallery p-0 m-0">
+            <div class="row g-0 d-flex align-items-center">
+              <div class="col-8 col-sm-4 col-md-2 flex-row">
+                <img src="images/bella-1.jpg" class="w-50 gallery-item img-fluid" alt="mini-pop up gallery" data-bs-toggle="modal" data-bs-target="#popup1">
+              </div>
+                <div class="col-8 col-sm-4 col-md-2 flex-row">
+                  <img src="images/bella-3.jpg" class="w-50 gallery-item img-fluid" alt="mini-pop up gallery" data-bs-toggle="modal" data-bs-target="#popup2">
+                  </div>
+                   <div class="col-8 col-sm-4 col-md-2 flex-row">
+                    <img src="images/bella-4.jpg" class="w-50 gallery-item" alt="mini-pop up gallery" data-bs-toggle="modal" data-bs-target="#popup3">
                   </div>
                 </div>
               </div>
-            </section>
-            <div class="col-12 col-sm-6 mt-4">
-              <p class="fs-5">
+            <!-- Modal -->
+            <div class="modal fade" id="popup1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-md">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/bella-1.jpg" class="modal-image" alt="modal image">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="popup2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-md">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/bella-3.jpg" class="modal-image" alt="modal image">
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div class="modal fade" id="popup3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-md">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/bella-4.jpg" class="modal-image" alt="modal image">
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="row d-flex bella-info" id="bella-info">
+            <div class="col-12 col-md-5 ms-3 mt-4">
+              <p class="fs-6">
                Bella is a charming little dog with a gentle soul and a heart full of love, patiently waiting to find her forever family. Though she may be small in size, Bella’s personality shines brightly, she is affectionate, loyal, and always eager to be by your side, whether you’re relaxing on the couch or going for a peaceful walk around the neighborhood. She has the sweetest nature, greeting everyone she meets with a soft wag of her tail and warm, curious eyes that seem to say she’s ready to trust and love again. Bella enjoys the simple pleasures in life: a cozy blanket, a sunny spot by the window, and plenty of cuddles from her favorite humans. She adapts well to a calm environment and would thrive in a home where she can feel safe, cherished, and included as part of the family. Bella is also wonderfully well-mannered, making her an ideal companion for first-time dog owners or anyone looking for a low-maintenance but deeply loving pet. She has so much affection to give and forms strong bonds with the people she cares about, always staying close and offering quiet companionship.
               </p>
-              <p class="fs-5">
+              <p class="fs-6">
                 Bella’s gentle demeanor makes her a perfect match for someone who appreciates a calm, devoted friend who will always be there to brighten their day. All she needs now is a second chance, a loving home where she can truly belong and share her endless love for years to come. 
               </p>
               <p class="fw-bold text-center fs-4">For more information</p>
@@ -118,22 +176,25 @@
                 <p class="text-center">Email us: info@pawsitivefutures.com</p>
             </div>
           </div>
+          </section>
+          <section id="important-info">
           <div class="container important-info text-center">
-              <div class="row gap-3 mt-4">
-                <div class="col border border-secondary rounded-4 border-3">
-                  <p class="mx-2 fw-bold mt-2 fs-5">Medical History:</p>
-                    <p>Up-to-date on vaccinations, spayed, no known health issues.</p>
-                    </div>
-                    <div class="col border border-secondary rounded-4 border-3">
-                  <p class="fw-bold mx-2 mt-2 fs-5">Special Needs:</p>
-                  <p>Requires daily exercise; would thrive in an active household.</p>
+            <div class="row gap-3 mt-4">
+              <div class="col border border-secondary rounded-4 border-3">
+                <p class="mx-2 fw-bold mt-2 fs-5">Medical History:</p>
+                  <p>Up-to-date on vaccinations, spayed, no known health issues.</p>
+                  </div>
+                      <div class="col border border-secondary rounded-4 border-3">
+                    <p class="fw-bold mx-2 mt-2 fs-5">Special Needs:</p>
+                    <p>Requires daily exercise; would thrive in an active household.</p>
+                </div>
               </div>
             </div>
-          </div>
+            </section>
+            <div>
           <a href="application.html" class="hvr-grow btn mt-5 border-0 bg-danger fs-3 text-white d-grid gap-2 col-6 mx-auto">Adopt!</a>
+          </div>
         </div>
-    </section>
-    </main>
       <!-- footer -->
     <footer class="bg-primary text-center text-lg-start mt-4">
   <!-- Section: Links  -->
@@ -219,5 +280,6 @@
     </div>
   </section>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

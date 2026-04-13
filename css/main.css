@@ -161,3 +161,8 @@ body {
   background-color: #156978;
   color: white;
 }
+
+.mini-gallery img {
+  cursor: pointer;
+  max-width: 100%;
+}
