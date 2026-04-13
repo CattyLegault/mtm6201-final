@@ -3,7 +3,7 @@
 For this assignment, we were tasked of taking our UX high fidelity protoype and create a functioning website based on what we learned from weeks 9-14. For my wireframe, I decided to
 do an animal shelter named "Pawsitive Futures". I chose a bright but still structured layout to highlight what the users are looking for. The biggest challenge(s) I faced was getting the content to match the Figma wireframe I had laid out, primarily the header, footer, and banners with the overlay were a big challenge to get to work as well as getting the picture tag to work on the main homepage and bella page. I think I managed to make it look as close to the figma wireframe but there challenges to have it match and make it look correct based on what I learned.
 
-Over the course of this website building, I did have to make a few changes after comparing my version of the website to some animal shelter websites with an application form and make changes to the application form to better reflect a real animal shelter to the best of my ability.
+Over the course of this website building, I did have to make a few changes after comparing my version of the website to some animal shelter websites with an application form and make changes to the application form to better reflect a real animal shelter to the best of my ability. It is not 100% accurate to the original source and I understand that, but I made it as close as possible.
 
 I think this whole project was harder than it looked when I first designed it. I think I should've kept certain desicions to the original beforehand to reduce the stress. Some elements when building the site were either not working, or causing problems.
 
