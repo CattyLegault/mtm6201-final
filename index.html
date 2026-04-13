@@ -44,31 +44,33 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mt-4 me-0 ps-3 pb-4 mb-lg-0">
+          <div class="collapse navbar-collapse text-center fs-6" id="navbarSupportedContent">
+            <ul class="navbar-nav mt-4 pb-4 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="adopt.html">ADOPT A PET</a>
+                <a class="nav-link fw-semibold font-monospace text-white" href="adopt.html">ADOPT A PET</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">EVENTS</a>
+                <a class="nav-link fw-semibold font-monospace text-white" href="#">EVENTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">WORK WITH US</a>
+                <a class="nav-link fw-semibold font-monospace text-white" href="#">WORK WITH US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">GIVE BACK</a>
+                <a class="nav-link fw-semibold font-monospace text-white" href="#">GIVE BACK</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">SUCCESS STORIES</a>
+                <a class="nav-link fw-semibold font-monospace text-white" href="#">SUCCESS STORIES</a>
               </li>
             </ul>
-            <div class="d-flex flex-row-reverse ms-4 ps-5 me-4">
-           <a href="#" class="hvr-fade px-4 btn border-0 btn-danger">Donate</a>
+            <div class="col buttons d-flex ms-3 me-1 gap-2">
+            <div class="flex-row-reverse">
+            <a href="#" class="hvr-fade px-3 btn border-0 btn-danger">Donate</a>
+            </div>
+            <div class="flex-row-reverse me-4">
+            <a href="#" class="hvr-fade px-3 btn border-0 btn-secondary">Clinics</a>
+            </div>
            </div>
-           <div class="d-flex flex-row-reverse me-4">
-           <a href="#" class="hvr-fade px-4 btn border-0 btn-secondary">Clinics</a>
-           </div>
-            <form class="d-flex ms-3 me-3 pb-3 pt-3" role="search">
+            <form class="d-flex pb-3 pt-3" role="search">
               <input
                 class="form-control rounded-0"
                 type="search"
@@ -97,98 +99,127 @@
       </section>
       <!-- About us section -->
       <section id="about">
-        <div class="container-xl py-3">
+        <div class="container-xl py-5">
           <div class="row">
-            <h2 class="pt-4 display-4 font-monospace fw-bold text-primary">About Pawsitive futures</h2>
-            <div class="col-12 pb-4 pt-4">
-              <picture class="img-fluid col-sm-2">
-                 <source srcset="images/about-us-720_x_720.png"
-                  media="(min-width: 640px)" />
+             <h2 class="pt-4 display-3 ms-4 font-monospace fw-bold text-primary">About Pawsitive futures</h2>
+              <div class="col-12 col-md-6 pb-4 pt-4">
+                <picture class="pb-4">
+                    <source srcset="images/about-us-640x640.jpg 3x"
+                            media="(min-width: 480px)" />
 
-                  <source srcset="images/about-us-640_x_640.png 2x"
-                          media="(min-width: 480px)" />
+                    <source srcset="images/about-us-480x480.jpg 2x"
+                            media="(min-width: 320px)" />
+                    
+                    <source srcset="images/about-us-320x320.jpg 1x"
+                            media="(min-width: 319px)" />
 
-                  <source srcset="images/about-us-480_x_480.png 3x"
-                          media="(min-width: 320px)" />
-
-                  <img class="orig-img"
-                      src="images/about-us.png"
-                      alt="volunteer holding a dog">
-              </picture>
-            </div>
-            <div class="col-12 col-sm-6 pb-4 pt-4">
-              <p class="fs-5 me-3">
+                    <img class="orig-img img-fluid"
+                        src="images/about-us.jpg"
+                        alt="volunteer holding a dog">
+                  </picture>
+              </div>
+            <div class="col-12 col-md-6 mt-4">
+              <p class="fs-5">
                 Pawsitive Futures is a compassionate animal shelter dedicated to
                 rescuing, rehabilitating, and rehoming animals in need. The
                 organization focuses on giving abandoned, stray, and neglected
                 pets a second chance at life by providing medical care,
                 nutritious food, and a safe, loving environment while they wait
                 for adoption.
-              </p>
-              <p class="fs-5">
+            </p>
+            <p class="fs-5">
                 Through community outreach, volunteer programs, and responsible
                 pet adoption initiatives, Pawsitive Futures works to connect
                 animals with caring families and promote awareness about animal
                 welfare. Their mission is not only to find permanent homes for
                 animals but also to build a community where every pet is treated
                 with kindness, respect, and compassion.
-              </p>
-            </div>
+            </p>
           </div>
+        </div>
         </div>
       </section>
       <!-- adopt a pet section -->
-      <section class="adopt">
-        <div class="img-fluid w-100 text-light py-5 bg-gradient bg-opacity-50 bg-secondary">
+      <section id="adopt-page" class="adopt">
+        <div class="img-fluid text-light p-5 bg-gradient bg-opacity-50 bg-secondary">
           <h2 class="display-3 fw-bold text-center font-monospace text-white">ADOPT A PET TODAY</h2>
           <a href="adopt.html" class="hvr-grow font-monospace fw-semibold pt-2 pb-2 btn bg-danger text-white fs-5 d-grid gap-2 col-2 mx-auto">Adopt Now!</a>
           </a>
         </div>
       </section>
       <!-- events and fundraisers -->
-      <section id="services" class="container-xl pt-4 pb-2 border-0">
-        <h2 class="display-3 font-monospace fw-bold text-primary mt-3 mb-4">Events and Fundraisers</h2>
+      <section id="fundraisers" class="container-xl py-5">
         <div class="row g-3 m-3">
-          <div class="col-12 col-sm-4">
-            <h3 class="card-title text-secondary font-monospace fw-bold border-0 pb-4 text-center">Dog picks you day</h3>
-            <div class="card rounded-0 border-0">
-              <img
-                src="./images/dog-picks.jpg"
-                class="card-img-top rounded-0 border-0"
-                alt="..."/>
+          <h2 class="display-3 font-monospace fw-bold text-primary mt-3 mb-4">Events and Fundraisers</h2>
+            <div class="col-12 col-sm-4">
+              <h3 class="card-title text-secondary font-monospace fw-bold border-0 pb-4 text-center">Dog picks you day</h3>
+              <picture class="pb-4">
+                  <source srcset="images/dog-picks-640x640.jpg 3x"
+                        media="(min-width: 480px)" />
+
+                  <source srcset="images/dog-picks-480x480.jpg 2x"
+                            media="(min-width: 320px)" />
+                    
+                  <source srcset="images/dog-picks-320x320.jpg 1x"
+                            media="(min-width: 319px)" />
+
+                  <img class="orig-img img-fluid"
+                        src="images/dog-picks.jpg"
+                        alt="doggo picks you">
+                  </picture>
               <div class="card-body">
-                <a href="https://www.youtube.com/watch?v=ph8WqK0bLug" class="hvr-pop pt-2 pb-2 btn btn-secondary border-0 d-grid gap-2 col-4 mx-auto">Sign Up</a>
+                <a href="https://www.youtube.com/watch?v=ph8WqK0bLug" class="hvr-pop mt-4 pb-2 btn btn-secondary border-0 d-grid gap-2 col-sm-4 mx-auto">Sign Up</a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <h3 class="card-title text-secondary font-monospace fw-bold border-0 pb-4 text-center">Pawsitive Fundraisers</h3>
+              <picture class="pb-4">
+                  <source srcset="images/annual-fundraiser-640x640.jpg 3x"
+                        media="(min-width: 480px)" />
+
+                  <source srcset="images/annual-fundraiser-480x480.jpg 2x"
+                            media="(min-width: 320px)" />
+                    
+                  <source srcset="images/annual-fundraiser-320x320.jpg 1x"
+                            media="(min-width: 319px)" />
+
+                  <img class="orig-img img-fluid"
+                        src="images/annual-fundraiser.jpg"
+                        alt="animal fundraisers">
+                  </picture>
+              <div class="card-body">
+                <a href="https://rallyup.com/blog/animal-shelter-fundraisers/" class="hvr-pop mt-4 pb-2 btn btn-secondary border-0 d-grid gap-2 col-sm-4 mx-auto">Sign Up</a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <h3 class="card-title text-secondary font-monospace fw-bold border-0 pb-4 text-center">Adopt-a-kitten day</h3>
+            <div class="pb-4">
+              <picture class="pb-4">
+                  <source srcset="images/kitten-adopt-640x640.jpg 3x"
+                        media="(min-width: 480px)" />
+
+                  <source srcset="images/kitten-adopt-480x480.jpg 2x"
+                            media="(min-width: 320px)" />
+                    
+                  <source srcset="images/kitten-adopt-320x320.jpg 1x"
+                            media="(min-width: 319px)" />
+
+                  <img class="orig-img img-fluid"
+                        src="images/kitten-adopt.jpg"
+                        alt="kitten adoption event">
+                  </picture>
+              <div class="card-body">
+                <a href="#" class="hvr-pop mt-4 pb-2 btn btn-secondary border-0 d-grid gap-2 col-sm-4 mx-auto">Sign Up</a>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
-            <h3 class="card-title text-secondary font-monospace fw-bold border-0 pb-4 text-center">Pawsitive Fundraisers</h3>
-            <div class="card rounded-0 border-0">
-              <img
-                src="./images/annual-fundraiser.jpg"
-                class="card-img-top rounded-0"
-                alt="annual fundraiser events"/>
-              <div class="card-body">
-                <a href="https://rallyup.com/blog/animal-shelter-fundraisers/" class="hvr-pop pt-2 pb-2 btn border-0 btn-secondary d-grid gap-2 col-4 mx-auto">Sign Up</a>
-              </div>
-            </div>
           </div>
-          <div class="col-12 col-md-4">
-            <h3 class="card-title text-secondary font-monospace fw-bold border-0 pb-4 text-center">Adopt-a-kitten day</h3>
-            <div class="card rounded-0 border-0">
-              <img
-                src="./images/kitten-adopt.jpg"
-                class="card-img-top rounded-0"
-                alt="cute kittens together"/>
-              <div class="card-body">
-                <a href="#" class="hvr-pop pt-2 pb-2 btn border-0 btn-secondary d-grid gap-2 col-4 mx-auto">Sign Up</a>
-              </div>
-            </div>
-          </div>
+        </section>
+        <!-- location and hours area -->
       <section>
-        <div class="container row">
+        <div class="container row mx-2">
             <h3 class="display-4 mt-4 mb-2 font-monospace fw-bold text-primary">Location and Hours</h3>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-sm-6">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22433.76503734216!2d-75.75306239999998!3d45.344358400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1774394644737!5m2!1sen!2sca"
               class="w-100 ms-2"
@@ -241,7 +272,6 @@
             </table>
             </div>
           </div>
-        </div>
       </section>
     </main>
     <!-- footer -->
