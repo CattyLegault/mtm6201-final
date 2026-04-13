@@ -23,7 +23,7 @@
   </head>
   <body>
     <!-- MAIN HEADER -->
-    <header class="bg-primary overflow-x-hidden text-white w-100">
+   <header class="bg-primary overflow-x-hidden text-white w-100">
       <div class="skip-links">
         <a href="#navbar" class="skip">Skip to nav</a>
         <a href="#main" class="skip">Skip to main content</a>
@@ -43,31 +43,33 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mt-4 ps-3 pb-4 mb-lg-0">
+          <div class="collapse navbar-collapse text-center fs-6" id="navbarSupportedContent">
+            <ul class="navbar-nav mt-4 pb-4 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="adopt.html">ADOPT A PET</a>
+                <a class="nav-link fw-semibold font-monospace text-white" href="adopt.html">ADOPT A PET</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">EVENTS</a>
+                <a class="nav-link fw-semibold font-monospace text-white" href="#">EVENTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">WORK WITH US</a>
+                <a class="nav-link fw-semibold font-monospace text-white" href="#">WORK WITH US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">GIVE BACK</a>
+                <a class="nav-link fw-semibold font-monospace text-white" href="#">GIVE BACK</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-6 fw-semibold font-monospace text-white" href="#">SUCCESS STORIES</a>
+                <a class="nav-link fw-semibold font-monospace text-white" href="#">SUCCESS STORIES</a>
               </li>
             </ul>
-            <div class="d-flex flex-row-reverse ms-4 ps-5 me-4">
-           <a href="#" class="hvr-fade px-4 btn border-0 btn-danger">Donate</a>
+            <div class="col buttons d-flex ms-3 me-1 gap-2">
+            <div class="flex-row-reverse">
+            <a href="#" class="hvr-fade px-3 btn border-0 btn-danger">Donate</a>
+            </div>
+            <div class="flex-row-reverse me-4">
+            <a href="#" class="hvr-fade px-3 btn border-0 btn-secondary">Clinics</a>
+            </div>
            </div>
-           <div class="d-flex flex-row-reverse me-4">
-           <a href="#" class="hvr-fade px-4 btn border-0 btn-secondary">Clinics</a>
-           </div>
-            <form class="d-flex ms-3 me-3 pb-3 pt-3" role="search">
+            <form class="d-flex pb-3 pt-3" role="search">
               <input
                 class="form-control rounded-0"
                 type="search"
