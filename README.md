@@ -43,7 +43,7 @@ https://chatgpt.com/ (this was **only** allowed for filling out text for our UX 
 
 ## Figma
 
-https://www.figma.com/design/XfmtlUhTnDTx5pBoBI7TQe/Course-Resurces--W26_MTM6260-?node-id=1-11&t=oaDWYH6ROTFrkB26-1
+[Figma Pawsitive Futures Prototype](https://www.figma.com/design/XfmtlUhTnDTx5pBoBI7TQe/Course-Resurces--W26_MTM6260-?node-id=1-14&t=odBhURKbuJVreJiL-1)
 
 ## Copyright
 
