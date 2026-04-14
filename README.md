@@ -19,40 +19,38 @@ Adopt Bella
 
 [Bootstrap](https://getbootstrap.com/)
 
-https://fonts.google.com/specimen/Baloo+Bhaijaan+2?categoryFilters=Feeling:%2FExpressive%2FCalm
+[Google Fonts - Baloo Bhaijaan 2](https://fonts.google.com/specimen/Baloo+Bhaijaan+2?categoryFilters=Feeling:%2FExpressive%2FCalm)
 
-https://fonts.google.com/specimen/Inter?categoryFilters=Feeling:%2FExpressive%2FCalm
+[Google Fonts - Inter](https://fonts.google.com/specimen/Inter?categoryFilters=Feeling:%2FExpressive%2FCalm)
 
-https://ianlunn.github.io/Hover/
+[Hover CSS](https://ianlunn.github.io/Hover/)
 
-https://www.pexels.com/
+[Pexels Stock images](https://www.pexels.com/)
 
-https://pixabay.com/
+[Pixabay Stock Images](https://pixabay.com/)
 
-https://iconmonstr.com/
+[Bootstrap Icons](https://icons.getbootstrap.com/)
 
-https://icons.getbootstrap.com/
+[Youtube Tutorial](https://www.youtube.com/watch?v=tmWvwp3rpso)
 
-https://www.youtube.com/watch?v=tmWvwp3rpso
+[Youtube Tutorial](https://www.youtube.com/watch?v=nS_Ht0lT-uQ&t=4s) (when in mobile form)
 
-https://www.youtube.com/watch?v=nS_Ht0lT-uQ&t=4s (when in mobile form)
+[Youtube Tutorial](https://www.youtube.com/watch?v=D8Dlf19JKAQ)
 
-https://www.youtube.com/watch?v=D8Dlf19JKAQ
+[ChatGBT - Filling Text](https://chatgpt.com/) (this was **only** allowed for filling out text for our UX assignment; about us paragraph, details about a pet during the wireframe stage)
 
-https://chatgpt.com/ (this was **only** allowed for filling out text for our UX assignment; about us paragraph, details about a pet during the wireframe stage)
-
-## Figma
+### Figma
 
 [Figma Pawsitive Futures Prototype](https://www.figma.com/design/XfmtlUhTnDTx5pBoBI7TQe/Course-Resurces--W26_MTM6260-?node-id=1-14&t=odBhURKbuJVreJiL-1)
 
-## Copyright
+### Copyright
 
 - ALL PHOTOS WERE DOWNLOADED FROM PEXELS AND PIXABAY, STOCK PHOTO WEBSITES
 - Logo was given to us from the creative briefs in UX foundations
 - Icons at the bottom of the adopt.html are from google and tweaked in illustrator to fit the theme, rendered as a vector SVG
   -Social media icons are from https://iconmonstr.com/
 
-## Comments for upddated changes on the website from the original Figma wireframe
+### Comments for updated changes on the website from the original Figma wireframe
 
 - Some text has been altered to make it a bit more realistic i.e date and time on the table
 - I adjusted the heading in the "events and fundraisers" to help line up the buttons and pictures
