@@ -84,107 +84,115 @@
   </header>
   <!-- photo and information of Bella -->
   <main id="maincontent">
-    <section class="bella">
-      <div class="container-xl py-2 p-0">
-        <div class="row g-0">
-          <h1 class="pt-4 display-2 ms-4 font-monospace fw-bold text-primary">Bella</h1>
-          <h2 class="fw-bold fs-5 ms-4">Breed:</h2>
-          <h3 class="ms-4 fs-5">Shih Tzu</h3>
-          <div class="col-12 col-sm-5 pb-4 pt-4">
-            <picture class="pb-4 img-fluid">
-              <source srcset="images/bella-640x640.jpg 3x" media="(min-width: 480px)" />
+    <section>
+      <h1 class="pt-4 display-2 ms-4 font-monospace fw-bold text-primary">Bella</h1>
+      <p class="fs-4 ms-4"><span class="fw-bold">Breed:</span><br>Shih Tzu</p>
+      <div class="mx-2 row">
+        <div class="col-12 col-md-6 bella">
+          <div class="container-xl py-2 p-0">
+            <div class="pb-4 pt-4">
+              <picture class="pb-4 img-fluid">
+                <source srcset="images/bella-640x640.jpg 3x" media="(min-width: 480px)" />
 
-              <source srcset="images/bella-480x480.jpg 2x" media="(min-width: 320px)" />
+                <source srcset="images/bella-480x480.jpg 2x" media="(min-width: 320px)" />
 
-              <source srcset="images/bella-320x320.jpg 1x" media="(min-width: 319px)" />
+                <source srcset="images/bella-320x320.jpg 1x" media="(min-width: 319px)" />
 
-              <img class="orig-img img-fluid" src="images/bella.jpg" alt="profile of bella">
-            </picture>
-          </div>
-          <div id="mini-gallery" class="container-lg mini-gallery p-0 m-0">
-            <div class="row g-0 d-flex align-items-center">
-              <div class="col-8 col-sm-4 col-md-2 flex-row">
-                <img src="images/bella-1.jpg" class="w-50 gallery-item img-fluid" alt="mini-pop up gallery"
-                  data-bs-toggle="modal" data-bs-target="#popup1">
-              </div>
-              <div class="col-8 col-sm-4 col-md-2 flex-row">
-                <img src="images/bella-3.jpg" class="w-50 gallery-item img-fluid" alt="mini-pop up gallery"
-                  data-bs-toggle="modal" data-bs-target="#popup2">
-              </div>
-              <div class="col-8 col-sm-4 col-md-2 flex-row">
-                <img src="images/bella-4.jpg" class="w-50 gallery-item" alt="mini-pop up gallery" data-bs-toggle="modal"
-                  data-bs-target="#popup3">
-              </div>
+                <img class="orig-img img-fluid" src="images/bella.jpg" alt="profile of bella">
+              </picture>
             </div>
-          </div>
-          <!-- Modal -->
-          <div class="modal fade" role="dialog" id="popup1" tabindex="-1" aria-labelledby="popup1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-md">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div id="mini-gallery" class="container-lg mini-gallery p-0 m-0">
+              <div class="g-2 row">
+                <div class="col-4">
+                  <img src="images/bella-1.jpg" class="w-100 gallery-item img-fluid" alt="mini-pop up gallery"
+                    data-bs-toggle="modal" data-bs-target="#popup1">
                 </div>
-                <div class="modal-body">
-                  <img src="images/bella-1.jpg" class="modal-image" alt="modal image">
+                <div class="col-4">
+                  <img src="images/bella-3.jpg" class="w-100 gallery-item img-fluid" alt="mini-pop up gallery"
+                    data-bs-toggle="modal" data-bs-target="#popup2">
+                </div>
+                <div class="col-4">
+                  <img src="images/bella-4.jpg" class="w-100 gallery-item" alt="mini-pop up gallery"
+                    data-bs-toggle="modal" data-bs-target="#popup3">
                 </div>
               </div>
             </div>
-          </div>
-          <div class="modal fade" role="dialog" id="popup2" tabindex="-1" aria-labelledby="popup2" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-md">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="images/bella-3.jpg" class="modal-image" alt="modal image">
+            <!-- Modal -->
+            <div class="modal fade" role="dialog" id="popup1" tabindex="-1" aria-labelledby="popup1" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/bella-1.jpg" class="w-75 mx-auto d-block" alt="modal image">
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="modal fade" role="dialog" id="popup3" tabindex="-1" aria-labelledby="popup3" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-md">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal fade" role="dialog" id="popup2" tabindex="-1" aria-labelledby="popup2" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/bella-3.jpg" class="w-75 mx-auto d-block" alt="modal image">
+                  </div>
                 </div>
-                <div class="modal-body">
-                  <img src="images/bella-4.jpg" class="modal-image" alt="modal image">
+              </div>
+            </div>
+            <div class="modal fade" role="dialog" id="popup3" tabindex="-1" aria-labelledby="popup3" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/bella-4.jpg" class="w-75 mx-auto d-block" alt="modal image">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="bella-info" id="bella-info">
-      <div class="container-xl">
-        <div class="row">
-          <div class="col-12 col-md-5 mt-4">
-            <p class="fs-6 mx-3">
-              Bella is a charming little dog with a gentle soul and a heart full of love, patiently waiting to find her
-              forever family. Though she may be small in size, Bella’s personality shines brightly, she is affectionate,
-              loyal, and always eager to be by your side, whether you’re relaxing on the couch or going for a peaceful
-              walk around the neighborhood. She has the sweetest nature, greeting everyone she meets with a soft wag of
-              her tail and warm, curious eyes that seem to say she’s ready to trust and love again. Bella enjoys the
-              simple pleasures in life: a cozy blanket, a sunny spot by the window, and plenty of cuddles from her
-              favorite humans. She adapts well to a calm environment and would thrive in a home where she can feel safe,
-              cherished, and included as part of the family. Bella is also wonderfully well-mannered, making her an
-              ideal companion for first-time dog owners or anyone looking for a low-maintenance but deeply loving pet.
-              She has so much affection to give and forms strong bonds with the people she cares about, always staying
-              close and offering quiet companionship.
-            </p>
-            <p class="fs-6 mx-3">
-              Bella’s gentle demeanor makes her a perfect match for someone who appreciates a calm, devoted friend who
-              will always be there to brighten their day. All she needs now is a second chance, a loving home where she
-              can truly belong and share her endless love for years to come.
-            </p>
-            <p class="fw-bold text-center fs-4">For more information</p>
-            <p class="text-center">Call us: (613) 555-6655</p>
-            <p class="text-center">Email us: info@pawsitivefutures.com</p>
+        <div class="col-12 col-md-6 bella-info" id="bella-info">
+          <div class="container-xl">
+            <div class="row">
+              <div class="mt-4">
+                <p class="fs-6 mx-3">
+                  Bella is a charming little dog with a gentle soul and a heart full of love, patiently waiting to find
+                  her
+                  forever family. Though she may be small in size, Bella’s personality shines brightly, she is
+                  affectionate,
+                  loyal, and always eager to be by your side, whether you’re relaxing on the couch or going for a
+                  peaceful
+                  walk around the neighborhood. She has the sweetest nature, greeting everyone she meets with a soft wag
+                  of
+                  her tail and warm, curious eyes that seem to say she’s ready to trust and love again. Bella enjoys the
+                  simple pleasures in life: a cozy blanket, a sunny spot by the window, and plenty of cuddles from her
+                  favorite humans. She adapts well to a calm environment and would thrive in a home where she can feel
+                  safe,
+                  cherished, and included as part of the family. Bella is also wonderfully well-mannered, making her an
+                  ideal companion for first-time dog owners or anyone looking for a low-maintenance but deeply loving
+                  pet.
+                  She has so much affection to give and forms strong bonds with the people she cares about, always
+                  staying
+                  close and offering quiet companionship.
+                </p>
+                <p class="fs-6 mx-3">
+                  Bella’s gentle demeanor makes her a perfect match for someone who appreciates a calm, devoted friend
+                  who
+                  will always be there to brighten their day. All she needs now is a second chance, a loving home where
+                  she
+                  can truly belong and share her endless love for years to come.
+                </p>
+                <p class="fw-bold text-center fs-4">For more information</p>
+                <p class="text-center">Call us: (613) 555-6655</p>
+                <p class="text-center">Email us: info@pawsitivefutures.com</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -222,25 +230,25 @@
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-4 text-white">
             <p>
-              <a href="index.html" class="text-reset font-monospace fw-semibold">Home</a>
+              <a href="index.html" class="text-decoration-none text-reset font-monospace fw-semibold">Home</a>
             </p>
             <p>
-              <a href="adopt.html" class="text-reset font-monospace fw-semibold">Adopt a pet</a>
+              <a href="adopt.html" class="text-decoration-none text-reset font-monospace fw-semibold">Adopt a pet</a>
             </p>
             <p>
-              <a href="#" class="text-reset font-monospace fw-semibold">Work with us</a>
+              <a href="#" class="text-decoration-none text-reset font-monospace fw-semibold">Work with us</a>
             </p>
           </div>
 
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-4 text-white">
             <p>
-              <a href="#" class="text-reset font-monospace fw-semibold">Events</a>
+              <a href="#" class="text-decoration-none text-reset font-monospace fw-semibold">Events</a>
             </p>
             <p>
-              <a href="#" class="text-reset font-monospace fw-semibold">Give Back</a>
+              <a href="#" class="text-decoration-none text-reset font-monospace fw-semibold">Give Back</a>
             </p>
             <p>
-              <a href="#" class="text-reset font-monospace fw-semibold">Success Stories</a>
+              <a href="#" class="text-decoration-none text-reset font-monospace fw-semibold">Success Stories</a>
             </p>
           </div>
           <div class="d-grid col-md-1 col-lg-2 col-xl-2 p-2 gap-2">

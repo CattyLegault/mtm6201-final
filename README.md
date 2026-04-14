@@ -8,7 +8,7 @@ Over the course of this website building, I did have to make a few changes after
 I think this whole project was harder than it looked when I first designed it. I think I should've kept certain desicions to the original beforehand to reduce the stress. Some elements when building the site were either not working, or causing problems.
 
 **Please Note**
-The website have five functional pages; home page, adopt page (bella), bella-main, application and acknowledgment. The main purpose of the pages to be funtional is to have the user adopt a pet to show the funtionality of the website i.e adopting bella (which the task is mentioned just below it)
+The website have five functional pages; home page;(banner overlays, header hambuger, footer), adopt page (bella), bella-main, application and acknowledgment. The main purpose of the pages to be funtional is to have the user adopt a pet to show the funtionality of the website i.e adopting bella (which the task is mentioned just below it)
 
 ## website task
 
@@ -17,7 +17,7 @@ Adopt Bella
 
 ### All assets + tutorials used in the making/helping of this website
 
-https://getbootstrap.com/
+[Bootstrap] (https://getbootstrap.com/)
 
 https://fonts.google.com/specimen/Baloo+Bhaijaan+2?categoryFilters=Feeling:%2FExpressive%2FCalm
 
