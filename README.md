@@ -39,6 +39,8 @@ https://www.youtube.com/watch?v=nS_Ht0lT-uQ&t=4s (when in mobile form)
 
 https://www.youtube.com/watch?v=D8Dlf19JKAQ
 
+https://chatgpt.com/ (this was **only** allowed for filling out text for our UX assignment; about us paragraph, details about a pet during the wireframe stage)
+
 ## Figma
 
 https://www.figma.com/design/XfmtlUhTnDTx5pBoBI7TQe/Course-Resurces--W26_MTM6260-?node-id=1-11&t=oaDWYH6ROTFrkB26-1
