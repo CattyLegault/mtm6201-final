@@ -17,7 +17,7 @@ Adopt Bella
 
 ### All assets + tutorials used in the making/helping of this website
 
-[Bootstrap] (https://getbootstrap.com/)
+[Bootstrap](https://getbootstrap.com/)
 
 https://fonts.google.com/specimen/Baloo+Bhaijaan+2?categoryFilters=Feeling:%2FExpressive%2FCalm
 
