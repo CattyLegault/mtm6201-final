@@ -1,283 +1,308 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"/>
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"/>
-      <!-- scroll librrary -->
-       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- custom css -->
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Cat Legault - Pawsitive Futures Final</title>
-  </head>
-  <body>
-    <!-- MAIN HEADER -->
-    <header class="bg-primary overflow-x-hidden text-white w-100">
-      <div class="skip-links">
-        <a href="#navbar" class="skip">Skip to nav</a>
-        <a href="#main" class="skip">Skip to main content</a>
-      </div>
-      <nav class="navbar navbar-expand-lg p-0">
-        <div class="bg-primary px-0 container-xl">
-          <a class="navbar-logo ms-0" href="index.html">
-            <img src="./images/logo.svg" alt="Pawsitive Futures logo" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-center fs-6" id="navbarSupportedContent">
-            <ul class="navbar-nav mt-4 pb-4 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link fw-semibold font-monospace text-white" href="adopt.html">ADOPT A PET</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-semibold font-monospace text-white" href="#">EVENTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-semibold font-monospace text-white" href="#">WORK WITH US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-semibold font-monospace text-white" href="#">GIVE BACK</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-semibold font-monospace text-white" href="#">SUCCESS STORIES</a>
-              </li>
-            </ul>
-            <div class="col buttons d-flex ms-3 me-1 gap-2">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <!-- scroll librrary -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Cat Legault - Pawsitive Futures Final</title>
+</head>
+
+<body>
+  <!-- MAIN HEADER -->
+  <header class="bg-primary overflow-x-hidden text-white w-100">
+    <div class="skip-links">
+      <a href="#navbar" class="skip">Skip to nav</a>
+      <a href="#maincontent" class="skip">Skip to main content</a>
+      <a href="#footer" class="skip">Skip to Footer</a>
+    </div>
+    <nav id="navbar" class="navbar navbar-expand-lg p-0">
+      <div class="bg-primary px-0 container-xl">
+        <a class="navbar-logo ms-0" href="index.html">
+          <img src="./images/logo.svg" alt="Pawsitive Futures logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center fs-6" id="navbarSupportedContent">
+          <ul class="navbar-nav mt-4 pb-4 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold font-monospace text-white" href="adopt.html">ADOPT A PET</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold font-monospace text-white" href="#">EVENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold font-monospace text-white" href="#">WORK WITH US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold font-monospace text-white" href="#">GIVE BACK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold font-monospace text-white" href="#">SUCCESS STORIES</a>
+            </li>
+          </ul>
+          <div class="col buttons d-flex justify-content-center ms-3 me-1 gap-2">
             <div class="flex-row-reverse">
-            <a href="#" class="hvr-fade px-3 btn border-0 btn-danger">Donate</a>
+              <a href="#" class="hvr-fade px-3 btn border-0 btn-danger">Donate</a>
             </div>
             <div class="flex-row-reverse me-4">
-            <a href="#" class="hvr-fade px-3 btn border-0 btn-secondary">Clinics</a>
+              <a href="#" class="hvr-fade px-3 btn border-0 btn-secondary">Clinics</a>
             </div>
-           </div>
-            <form class="d-flex pb-3 pt-3" role="search">
-              <input
-                class="form-control rounded-0"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"/>
-              <button class="btn btn-outline-primary rounded-0" type="submit">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                </svg>
-              </button>
-            </form>
           </div>
+          <form class="d-flex pb-3 pt-3" role="search">
+            <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-danger rounded-0" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+              </svg>
+            </button>
+          </form>
         </div>
-      </nav>
-    </header> 
-    <!-- photo and information of Bella -->
-    <main>
-      <section id="info" class="bella">
-        <div class="container-xl py-2 p-0">
-            <div class="row g-0">
-            <h2 class="pt-4 display-2 ms-4 font-monospace fw-bold text-primary">Bella</h2>
-            <p class="fw-bold fs-5 ms-4">Breed:</p>
-            <p class="ms-4 fs-5">Shih Tzu</p>
-            <div class="col-12 col-sm-5 pb-4 pt-4">
-              <picture class="pb-4 img-fluid">
-                  <source srcset="images/bella-640x640.jpg 3x"
-                            media="(min-width: 480px)" />
+      </div>
+    </nav>
+  </header>
+  <!-- photo and information of Bella -->
+  <main id="maincontent">
+    <section class="bella">
+      <div class="container-xl py-2 p-0">
+        <div class="row g-0">
+          <h2 class="pt-4 display-2 ms-4 font-monospace fw-bold text-primary">Bella</h2>
+          <p class="fw-bold fs-5 ms-4">Breed:</p>
+          <p class="ms-4 fs-5">Shih Tzu</p>
+          <div class="col-12 col-sm-5 pb-4 pt-4">
+            <picture class="pb-4 img-fluid">
+              <source srcset="images/bella-640x640.jpg 3x" media="(min-width: 480px)" />
 
-                  <source srcset="images/bella-480x480.jpg 2x"
-                            media="(min-width: 320px)" />
-                    
-                  <source srcset="images/bella-320x320.jpg 1x"
-                            media="(min-width: 319px)" />
+              <source srcset="images/bella-480x480.jpg 2x" media="(min-width: 320px)" />
 
-                  <img class="orig-img img-fluid"
-                        src="images/bella.jpg"
-                        alt="profile of bella">
-                </picture>
-            </div>
+              <source srcset="images/bella-320x320.jpg 1x" media="(min-width: 319px)" />
+
+              <img class="orig-img img-fluid" src="images/bella.jpg" alt="profile of bella">
+            </picture>
+          </div>
           <div id="mini-gallery" class="container-lg mini-gallery p-0 m-0">
             <div class="row g-0 d-flex align-items-center">
               <div class="col-8 col-sm-4 col-md-2 flex-row">
-                <img src="images/bella-1.jpg" class="w-50 gallery-item img-fluid" alt="mini-pop up gallery" data-bs-toggle="modal" data-bs-target="#popup1">
+                <img src="images/bella-1.jpg" class="w-50 gallery-item img-fluid" alt="mini-pop up gallery"
+                  data-bs-toggle="modal" data-bs-target="#popup1">
               </div>
-                <div class="col-8 col-sm-4 col-md-2 flex-row">
-                  <img src="images/bella-3.jpg" class="w-50 gallery-item img-fluid" alt="mini-pop up gallery" data-bs-toggle="modal" data-bs-target="#popup2">
-                  </div>
-                   <div class="col-8 col-sm-4 col-md-2 flex-row">
-                    <img src="images/bella-4.jpg" class="w-50 gallery-item" alt="mini-pop up gallery" data-bs-toggle="modal" data-bs-target="#popup3">
-                  </div>
-                </div>
+              <div class="col-8 col-sm-4 col-md-2 flex-row">
+                <img src="images/bella-3.jpg" class="w-50 gallery-item img-fluid" alt="mini-pop up gallery"
+                  data-bs-toggle="modal" data-bs-target="#popup2">
               </div>
-            <!-- Modal -->
-            <div class="modal fade" role="dialog" id="popup1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-md">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="images/bella-1.jpg" class="modal-image" alt="modal image">
-                  </div>
-                </div>
+              <div class="col-8 col-sm-4 col-md-2 flex-row">
+                <img src="images/bella-4.jpg" class="w-50 gallery-item" alt="mini-pop up gallery" data-bs-toggle="modal"
+                  data-bs-target="#popup3">
               </div>
             </div>
-            <div class="modal fade" role="dialog" id="popup2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-md">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="images/bella-3.jpg" class="modal-image" alt="modal image">
-                  </div>
-                </div>
-              </div>
-            </div>
-             <div class="modal fade" role="dialog" id="popup3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-md">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="images/bella-4.jpg" class="modal-image" alt="modal image">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex bella-info" id="bella-info">
-            <div class="col-12 col-md-5 mt-4">
-              <p class="fs-6 mx-3">
-               Bella is a charming little dog with a gentle soul and a heart full of love, patiently waiting to find her forever family. Though she may be small in size, Bella’s personality shines brightly, she is affectionate, loyal, and always eager to be by your side, whether you’re relaxing on the couch or going for a peaceful walk around the neighborhood. She has the sweetest nature, greeting everyone she meets with a soft wag of her tail and warm, curious eyes that seem to say she’s ready to trust and love again. Bella enjoys the simple pleasures in life: a cozy blanket, a sunny spot by the window, and plenty of cuddles from her favorite humans. She adapts well to a calm environment and would thrive in a home where she can feel safe, cherished, and included as part of the family. Bella is also wonderfully well-mannered, making her an ideal companion for first-time dog owners or anyone looking for a low-maintenance but deeply loving pet. She has so much affection to give and forms strong bonds with the people she cares about, always staying close and offering quiet companionship.
-              </p>
-              <p class="fs-6 mx-3">
-                Bella’s gentle demeanor makes her a perfect match for someone who appreciates a calm, devoted friend who will always be there to brighten their day. All she needs now is a second chance, a loving home where she can truly belong and share her endless love for years to come. 
-              </p>
-              <p class="fw-bold text-center fs-4">For more information</p>
-                <p class="text-center">Call us: (613) 555-6655</p>
-                <p class="text-center">Email us: info@pawsitivefutures.com</p>
-            </div>
-          </section>
-          <section id="important-info">
-          <div class="container important-info text-center">
-            <div class="row gap-3 mt-4">
-              <div class="col border border-secondary rounded-4 border-3">
-                <p class="mx-2 fw-bold mt-2 fs-5">Medical History:</p>
-                  <p>Up-to-date on vaccinations, spayed, no known health issues.</p>
-                  </div>
-                      <div class="col border border-secondary rounded-4 border-3">
-                    <p class="fw-bold mx-2 mt-2 fs-5">Special Needs:</p>
-                    <p>Requires daily exercise; would thrive in an active household.</p>
-                </div>
-              </div>
-            </div>
-            </section>
-            <div>
-          <a href="application.html" class="hvr-grow btn mt-5 border-0 bg-danger fs-3 text-white d-grid gap-2 col-6 mx-4">Adopt!</a>
           </div>
-      <!-- footer -->
-    <footer class="bg-primary text-center text-lg-start mt-4">
-  <!-- Section: Links  -->
-  <section class="footer-area">
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4">
-          <!-- Content -->
-           <a class="navbar-logo pt-4 ms-2" href="index.html">
-            <img src="./images/logo.svg" alt="Pawsitive Futures logo" />
-          </a>
+          <!-- Modal -->
+          <div class="modal fade" role="dialog" id="popup1" tabindex="-1" aria-labelledby="popup1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/bella-1.jpg" class="modal-image" alt="modal image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" role="dialog" id="popup2" tabindex="-1" aria-labelledby="popup2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/bella-3.jpg" class="modal-image" alt="modal image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" role="dialog" id="popup3" tabindex="-1" aria-labelledby="popup3" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/bella-4.jpg" class="modal-image" alt="modal image">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-4 text-white">
-          <p>
-            <a href="index.html" class="text-reset font-monospace fw-semibold">Home</a>
-          </p>
-          <p>
-            <a href="adopt.html" class="text-reset font-monospace fw-semibold">Adopt a pet</a>
-          </p>
-          <p>
-            <a href="#" class="text-reset font-monospace fw-semibold">Work with us</a>
-          </p>
+      </div>
+    </section>
+    <section class="bella-info" id="bella-info">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 col-md-5 mt-4">
+            <p class="fs-6 mx-3">
+              Bella is a charming little dog with a gentle soul and a heart full of love, patiently waiting to find her
+              forever family. Though she may be small in size, Bella’s personality shines brightly, she is affectionate,
+              loyal, and always eager to be by your side, whether you’re relaxing on the couch or going for a peaceful
+              walk around the neighborhood. She has the sweetest nature, greeting everyone she meets with a soft wag of
+              her tail and warm, curious eyes that seem to say she’s ready to trust and love again. Bella enjoys the
+              simple pleasures in life: a cozy blanket, a sunny spot by the window, and plenty of cuddles from her
+              favorite humans. She adapts well to a calm environment and would thrive in a home where she can feel safe,
+              cherished, and included as part of the family. Bella is also wonderfully well-mannered, making her an
+              ideal companion for first-time dog owners or anyone looking for a low-maintenance but deeply loving pet.
+              She has so much affection to give and forms strong bonds with the people she cares about, always staying
+              close and offering quiet companionship.
+            </p>
+            <p class="fs-6 mx-3">
+              Bella’s gentle demeanor makes her a perfect match for someone who appreciates a calm, devoted friend who
+              will always be there to brighten their day. All she needs now is a second chance, a loving home where she
+              can truly belong and share her endless love for years to come.
+            </p>
+            <p class="fw-bold text-center fs-4">For more information</p>
+            <p class="text-center">Call us: (613) 555-6655</p>
+            <p class="text-center">Email us: info@pawsitivefutures.com</p>
+          </div>
         </div>
-
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-4 text-white">
-          <p>
-            <a href="#" class="text-reset font-monospace fw-semibold">Events</a>
-          </p>
-          <p>
-            <a href="#" class="text-reset font-monospace fw-semibold">Give Back</a>
-          </p>
-          <p>
-            <a href="#" class="text-reset font-monospace fw-semibold">Success Stories</a>
-          </p>
+      </div>
+    </section>
+    <section id="important-info">
+      <div class="container important-info text-center">
+        <div class="row gap-3 mt-4">
+          <div class="col border border-secondary rounded-4 border-3">
+            <p class="mx-2 fw-bold mt-2 fs-5">Medical History:</p>
+            <p>Up-to-date on vaccinations, spayed, no known health issues.</p>
+          </div>
+          <div class="col border border-secondary rounded-4 border-3">
+            <p class="fw-bold mx-2 mt-2 fs-5">Special Needs:</p>
+            <p>Requires daily exercise; would thrive in an active household.</p>
+          </div>
         </div>
-        <div class="d-grid col-md-1 col-lg-2 col-xl-2 p-2 gap-2">
-          <div class="col-12">
-            <a href="https://www.facebook.com/" class="ms-4 me-4 text-reset">
-             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-facebook mt-2 mb-2 pt-2" viewBox="0 0 16 16">
-              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-            </svg>
-            </a>
-            <a href="https://www.instagram.com/pet/" class="ms-4 me-4 text-reset">
-              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-instagram mt-2 mb-2 pt-2" viewBox="0 0 16 16">
-                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-              </svg>
-            </a>
-            <a href="https://www.amazon.ca/s?k=pet+toys&crid=2GHB1IJ9Z56TM&sprefix=pet+toys%2Caps%2C236&ref=nb_sb_noss_1" class="ms-4 me-4 text-reset">
-              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-amazon mt-2 mb-2 pt-2" viewBox="0 0 16 16">
-                <path d="M10.813 11.968c.157.083.36.074.5-.05l.005.005a90 90 0 0 1 1.623-1.405c.173-.143.143-.372.006-.563l-.125-.17c-.345-.465-.673-.906-.673-1.791v-3.3l.001-.335c.008-1.265.014-2.421-.933-3.305C10.404.274 9.06 0 8.03 0 6.017 0 3.77.75 3.296 3.24c-.047.264.143.404.316.443l2.054.22c.19-.009.33-.196.366-.387.176-.857.896-1.271 1.703-1.271.435 0 .929.16 1.188.55.264.39.26.91.257 1.376v.432q-.3.033-.621.065c-1.113.114-2.397.246-3.36.67C3.873 5.91 2.94 7.08 2.94 8.798c0 2.2 1.387 3.298 3.168 3.298 1.506 0 2.328-.354 3.489-1.54l.167.246c.274.405.456.675 1.047 1.166ZM6.03 8.431C6.03 6.627 7.647 6.3 9.177 6.3v.57c.001.776.002 1.434-.396 2.133-.336.595-.87.961-1.465.961-.812 0-1.286-.619-1.286-1.533M.435 12.174c2.629 1.603 6.698 4.084 13.183.997.28-.116.475.078.199.431C13.538 13.96 11.312 16 7.57 16 3.832 16 .968 13.446.094 12.386c-.24-.275.036-.4.199-.299z"/>
-                <path d="M13.828 11.943c.567-.07 1.468-.027 1.645.204.135.176-.004.966-.233 1.533-.23.563-.572.961-.762 1.115s-.333.094-.23-.137c.105-.23.684-1.663.455-1.963-.213-.278-1.177-.177-1.625-.13l-.09.009q-.142.013-.233.024c-.193.021-.245.027-.274-.032-.074-.209.779-.556 1.347-.623"/>
-              </svg>
-            </a>
-            <a href="https://www.youtube.com/watch?v=Ap3ukbO_KZo" class="ms-4 me-4 text-reset">
-              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-youtube mt-2 mb-2 pt-2" viewBox="0 0 16 16">
-                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
-              </svg>
+      </div>
+    </section>
+    <div class="d-flex justify-content-center mx-2">
+      <a href="application.html"
+        class="hvr-grow fw-bold btn btn-danger mt-5 border-0 fs-3 text-white gap-2 col-4">Adopt!</a>
+    </div>
+    <!-- footer -->
+    <footer id="footer" class="bg-primary text-center text-lg-start mt-4">
+      <!-- Section: Links  -->
+      <section class="footer-area">
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4">
+            <!-- Content -->
+            <a class="navbar-logo pt-4 ms-2" href="index.html">
+              <img src="./images/logo.svg" alt="Pawsitive Futures logo" />
             </a>
           </div>
-          <!-- Right -->
-        </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <form class="d-flex mt-4 ms-3 me-3" role="search">
-              <input
-                class="form-control rounded-0"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"/>
-              <button class="btn btn-outline-primary rounded-0" type="submit">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-4 text-white">
+            <p>
+              <a href="index.html" class="text-reset font-monospace fw-semibold">Home</a>
+            </p>
+            <p>
+              <a href="adopt.html" class="text-reset font-monospace fw-semibold">Adopt a pet</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset font-monospace fw-semibold">Work with us</a>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-4 text-white">
+            <p>
+              <a href="#" class="text-reset font-monospace fw-semibold">Events</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset font-monospace fw-semibold">Give Back</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset font-monospace fw-semibold">Success Stories</a>
+            </p>
+          </div>
+          <div class="d-grid col-md-1 col-lg-2 col-xl-2 p-2 gap-2">
+            <div class="col-12">
+              <a href="https://www.facebook.com/" class="ms-4 me-4 text-reset">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white"
+                  class="bi bi-facebook mt-2 mb-2 pt-2" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/pet/" class="ms-4 me-4 text-reset">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white"
+                  class="bi bi-instagram mt-2 mb-2 pt-2" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg>
+              </a>
+              <a href="https://www.amazon.ca/s?k=pet+toys&crid=2GHB1IJ9Z56TM&sprefix=pet+toys%2Caps%2C236&ref=nb_sb_noss_1"
+                class="ms-4 me-4 text-reset">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white"
+                  class="bi bi-amazon mt-2 mb-2 pt-2" viewBox="0 0 16 16">
+                  <path
+                    d="M10.813 11.968c.157.083.36.074.5-.05l.005.005a90 90 0 0 1 1.623-1.405c.173-.143.143-.372.006-.563l-.125-.17c-.345-.465-.673-.906-.673-1.791v-3.3l.001-.335c.008-1.265.014-2.421-.933-3.305C10.404.274 9.06 0 8.03 0 6.017 0 3.77.75 3.296 3.24c-.047.264.143.404.316.443l2.054.22c.19-.009.33-.196.366-.387.176-.857.896-1.271 1.703-1.271.435 0 .929.16 1.188.55.264.39.26.91.257 1.376v.432q-.3.033-.621.065c-1.113.114-2.397.246-3.36.67C3.873 5.91 2.94 7.08 2.94 8.798c0 2.2 1.387 3.298 3.168 3.298 1.506 0 2.328-.354 3.489-1.54l.167.246c.274.405.456.675 1.047 1.166ZM6.03 8.431C6.03 6.627 7.647 6.3 9.177 6.3v.57c.001.776.002 1.434-.396 2.133-.336.595-.87.961-1.465.961-.812 0-1.286-.619-1.286-1.533M.435 12.174c2.629 1.603 6.698 4.084 13.183.997.28-.116.475.078.199.431C13.538 13.96 11.312 16 7.57 16 3.832 16 .968 13.446.094 12.386c-.24-.275.036-.4.199-.299z" />
+                  <path
+                    d="M13.828 11.943c.567-.07 1.468-.027 1.645.204.135.176-.004.966-.233 1.533-.23.563-.572.961-.762 1.115s-.333.094-.23-.137c.105-.23.684-1.663.455-1.963-.213-.278-1.177-.177-1.625-.13l-.09.009q-.142.013-.233.024c-.193.021-.245.027-.274-.032-.074-.209.779-.556 1.347-.623" />
+                </svg>
+              </a>
+              <a href="https://www.youtube.com/watch?v=Ap3ukbO_KZo" class="ms-4 me-4 text-reset">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white"
+                  class="bi bi-youtube mt-2 mb-2 pt-2" viewBox="0 0 16 16">
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                </svg>
+              </a>
+            </div>
+            <!-- Right -->
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-0 mb-4">
+            <!-- Links -->
+            <form class="d-flex mt-4 mx-3" role="search">
+              <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-danger rounded-0" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                 </svg>
               </button>
             </form>
             <div class="d-flex justify-content-center mt-4 gap-2">
-           <a href="#" class="hvr-fade px-4 btn border-0 btn-danger">Donate</a>
-           <a href="#" class="hvr-fade px-4 btn border-0 btn-secondary">Clinics</a>
+              <a href="#" class="hvr-fade px-4 btn border-0 btn-danger">Donate</a>
+              <a href="#" class="hvr-fade px-4 btn border-0 btn-secondary">Clinics</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-</footer>
-</main>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+      </section>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
