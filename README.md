@@ -15,7 +15,7 @@ The website have five functional pages; home page, adopt page (bella), bella-mai
 _Task_
 Adopt Bella
 
-### All assets used in the making of this website
+### All assets + tutorials used in the making/helping of this website
 
 https://getbootstrap.com/
 
@@ -32,6 +32,12 @@ https://pixabay.com/
 https://iconmonstr.com/
 
 https://icons.getbootstrap.com/
+
+https://www.youtube.com/watch?v=tmWvwp3rpso
+
+https://www.youtube.com/watch?v=nS_Ht0lT-uQ&t=4s (when in mobile form)
+
+https://www.youtube.com/watch?v=D8Dlf19JKAQ
 
 ## Figma
 
