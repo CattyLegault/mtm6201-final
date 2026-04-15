@@ -48,7 +48,7 @@ Adopt Bella
 - ALL PHOTOS WERE DOWNLOADED FROM PEXELS AND PIXABAY, STOCK PHOTO WEBSITES
 - Logo was given to us from the creative briefs in UX foundations
 - Icons at the bottom of the adopt.html are from google and tweaked in illustrator to fit the theme, rendered as a vector SVG
-  -Social media icons are from https://iconmonstr.com/
+  -Social media icons are from [Bootstrap Icons](https://icons.getbootstrap.com/)
 
 ### Comments for updated changes on the website from the original Figma wireframe
 
@@ -57,6 +57,6 @@ Adopt Bella
 - All images are used from **Pexels and Pixabay stock**
 - Updated minor detail on Bella the dog to better identify the breed
 - Updated to a more detailed application form to better reflect a real adoption application: inspired from these links below
-  (https://www.fvrd.ca/assets/Services/Documents/Animal~Control/Dog%20Adoption%20Application.pdf)
-  (https://www.brampton.ca/en/residents/animal-services/documents/adoption-forms/dog%20adoption%20application.pdf)
-  (https://www.jotform.com/pdf-templates/pet-adoption-application-template)
+  [Template example #1](https://www.fvrd.ca/assets/Services/Documents/Animal~Control/Dog%20Adoption%20Application.pdf)
+  [Template example #2](https://www.brampton.ca/en/residents/animal-services/documents/adoption-forms/dog%20adoption%20application.pdf)
+  [Template example #3](https://www.jotform.com/pdf-templates/pet-adoption-application-template)
